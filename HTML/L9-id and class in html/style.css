@@ -1,0 +1,11 @@
+.red{
+    color: red;
+    /* to hit by class */
+}
+.bg-yellow{
+    background-color: yellow;
+}
+#firstdiv{
+    /* background-color: red; */
+    /* to hit by id */
+}
