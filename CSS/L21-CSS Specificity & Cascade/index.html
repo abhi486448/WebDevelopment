@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Specificity of the selector is 1 */
+        h1{
+            color: aqua;
+        }
+        /*Specificity of the selector is 1 + 10 */
+        h1.cpurple{
+            color: purple;
+        }
+        /*Specificity of the selector is 10 */
+        .cred{
+            color: red;
+            /* color: maroon !important;  //if we use important then only this css work*/
+        }
+        /*Specificity of the selector is 10 */
+        .yellow{
+            color: yellow;
+        }
+        /*Specificity of the selector is 10 */
+        /*This is an example of Atribute Selector */
+        [data-x=a]{
+            background-color: red;
+        }
+        /*Specificity of the selector is 1 + 10 + 10 + 10 + 10 */
+        a.harry.rohan-class[href]:hover{
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+    </div>
+</body>
+</html>
