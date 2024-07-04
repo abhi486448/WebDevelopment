@@ -44,10 +44,89 @@
             width: 26px;
         }
         .m1{
-            width: 80vw;
-            height: 80vh;
-
-            background-color: rgb(152, 119, 183);
+            width: 75vw;
+            height: 60px;
+            margin: 0px auto 35px auto;
+            display: flex;
+        }
+        .m1 img{
+            width: 60px;
+            height: 60px;
+            margin-right: 18px;
+        }
+        .m11{
+            margin-top: 10px;
+            font-size: 25px;
+            text-align: center;
+        }
+        .m11 span{
+            font-size: 15px;
+        }
+        .m2{
+            width: 100vw;
+            height: 110vh;
+            display: grid;
+            grid-template-columns: 330px 330px 330px;
+            row-gap: 25px;
+            grid-template-rows: repeat(4,1fr);
+            justify-content: center;
+        }
+        @media only screen and (max-width:640px){
+            .m2{
+                width: 100vw;
+                height: 110vh;
+                display: grid;
+                grid-template-columns: 500px;
+                row-gap: 25px;
+                grid-template-rows: repeat(4,1fr);
+                justify-content: center;
+            }
+        }
+        .item{
+            width: 300px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f9f9f9;
+        }
+        @media only screen and (max-width:640px){
+            .item{
+                width: 100%;
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #f9f9f9;
+            }
+        }
+        .m21{
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .m22{
+            width: 300px;
+            height: 25px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 400;
+        }.m23{
+            width: 130px;
+            height: 35px;
+            margin-top: 20px;
+            border: 0px;
+            border-radius: 5px;
+            background-color: #5cb85c;
+        }
+        .m23 a{
+            color: white;
+            font-weight: 600;
+            font-size: 12px;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -71,7 +150,83 @@
     </header>
     <main>
         <div class="m1">
+            <img src="images.jpeg" alt="">
+            <div class="m11">
+                Download UltraEdit <span>v2024.0(released 04/19/2024) | Hotfix </span>
+            </div>
+        </div>
 
+        <div class="m2">
+            <div class="item">
+                <div class="m21">English</div>
+                <div class="m22"></div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
+            <div class="item">
+                <div class="m21">Deutsch</div>
+                <div class="m22">German</div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
+            <div class="item">
+                <div class="m21">Italiano</div>
+                <div class="m22">Italian</div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
+            <div class="item">
+                <div class="m21">Español</div>
+                <div class="m22">Spanish</div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
+            <div class="item">
+                <div class="m21">français</div>
+                <div class="m22">French</div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
+            <div class="item">
+                <div class="m21">Português brasileiro</div>
+                <div class="m22">Brazilian Portuguese</div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
+            <div class="item">
+                <div class="m21">日本</div>
+                <div class="m22">Japanese</div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
+            <div class="item">
+                <div class="m21">한국어</div>
+                <div class="m22">Korean</div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
+            <div class="item">
+                <div class="m21">中国</div>
+                <div class="m22">Chinese</div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
+            <div class="item">
+                <div class="m21">中國</div>
+                <div class="m22">Traditional Chinese</div>
+                <button class="m23">
+                    <a href="ue_english_64.exe">Download 64-bit</a>
+                </button>
+            </div>
         </div>
     </main>
 </body>
