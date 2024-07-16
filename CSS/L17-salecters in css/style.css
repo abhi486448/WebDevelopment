@@ -1,0 +1,34 @@
+div{
+    color: yellow;
+    background-color: red;
+}
+.green{
+    color: red;
+    background-color: green;
+}
+#gray{
+    color: aqua;
+    background-color: gray;
+}
+div > p{
+    color: wheat;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+div p{
+    color: blue;
+}
+a:visited{
+    color: yellow;
+}
+a:link{
+    color: rgb(106, 77, 133);
+}
+a:hover{
+    background-color: rgb(127, 127, 184);
+}
+p:first-child{
+    background-color:aquamarine;
+}

@@ -1,0 +1,40 @@
+/*.box:first-child{
+            background-color: red;
+        }*/
+
+        /*.box::first-line{
+            color: red;
+        }*/
+
+        /*.boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+        p, a, .box, [data-color="primary"]{
+            padding-top: 45px;
+        }*/
+        /*.box:nth-child(odd){
+            background-color: blue;
+        }*/
+        /*.box:nth-last-child(1){
+            background-color: blue;
+        }*/
+        .boxes::before{
+            content: "Harry is good";
+            color: red;
+        }
+        .boxes::after{
+            content: "Harry is good";
+            color: blue;
+        }
+        ::selection{
+            background-color: black;
+            color: aqua;
+        }
+        .box::first-letter{
+            color: peru;
+            font-size: 35px;
+        }
+        input::placeholder{
+            color: rgb(73, 73, 92);
+        }

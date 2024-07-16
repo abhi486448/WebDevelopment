@@ -1,0 +1,48 @@
+:root{
+    --color: rgb(233, 100, 233);
+    --seccolor: rgb(120, 120, 228);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.n{
+    width: 100vw;
+    height: 11.6vh;
+    display: flex;
+    background-color: var(--seccolor);
+}
+.n1{
+    width: 70px;
+    margin-left: 3%;
+    padding: 5px;
+}
+.n1 img{
+    width: 60px;
+}
+.n2{
+    width: 25%;
+    height: 67%;
+    margin: 0px auto 0px auto;
+    padding-top: 25px;
+}
+.n2 ul{
+    font-size: large;
+    letter-spacing: 2px;
+    gap: 30px;
+    list-style-type: none;
+    display: flex;
+}
+.n3{
+    width: 90px;
+    padding: 16px;
+    margin-right: 3%;
+}
+.n3 button{
+    width: 90px;
+    height: 40px;
+    font-size: larger;
+    border-radius: 9px;
+    color: white;
+    background-color: rgb(39, 37, 37);
+}
