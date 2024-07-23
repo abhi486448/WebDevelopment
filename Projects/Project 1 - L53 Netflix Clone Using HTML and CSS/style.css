@@ -390,11 +390,17 @@ footer .questions {
         width: 200px;
     }
     .sec-div .div-img{
-        width: 170px;
+        width: 250px;
         height: 64.2px;
     }
     .div-img img{
         width: 37.24px;
+    }
+    .div-btn-1{
+        gap: 8px;
+    }
+    .div-btn-1 .select-container{
+        width: 92px;
     }
 }
 
