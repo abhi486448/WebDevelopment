@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/imges/bg.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    width: 74.8vw;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    color: red;
+    width: 148px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.sepration {
+    height: 7.5px;
+    background-color: rgb(45, 45, 45);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    cursor: pointer;
+}
+
+.div-btn-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.div-btn-1 .select-container {
+    display: flex;
+    justify-content: center;
+    width: 125px;
+    height: 30px;
+    border: 0.001px solid rgb(146, 144, 144);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.div-btn-1 .select-container .select-box {
+    border: none;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    font-size: 16px;
+    font-weight: 400;
+    width: 90px;
+}
+
+.svg-btn {
+    width: 20px;
+    height: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-btn img {
+    width: 15px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 4px;
+    width: 215px;
+    height: 56px;
+    border: none;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    width: 75px;
+    border: none;
+    border-radius: 4px;
+}
+
+.hero-buttins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.hero .hero-buttins input {
+    width: 260px;
+    height: 40px;
+    padding: 7px 101px 8px 14px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 75vw;
+    padding: 40px 0 40px 0;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.first .first-text {
+    width: 55%;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 475px;
+    position: relative;
+    z-index: 10;
+}
+
+.sec-div {
+    align-items: center;
+}
+
+.sec-div .div-img {
+    position: absolute;
+    width: 265px;
+    height: 100px;
+    border: 1.5px solid rgb(122, 120, 120);
+    border-radius: 10px;
+    background-color: black;
+    z-index: 20;
+    margin-top: 49%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sec-div .div-img .font-si {
+    font-size: 15px;
+    height: 6%;
+    width: 90%;
+}
+.font-si-1{
+    color: blue;
+    font-weight: 500;
+}
+.div-img img {
+    padding: 10px 0 10px 15px;
+    width: 58px;
+}
+
+.div-sv {
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    content: '';
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 410px;
+}
+
+.video-box {
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#video-1 {
+    top: 0;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :first-child {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.faqbox {
+    transition: all 0.5s ease-out;
+    display: flex;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    padding: 24px;
+    max-width: 70vw;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+footer {
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .questions {
+    padding: 40px 0 25px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+@media screen and (max-width:1225px) {
+    nav {
+        width: 90vw;
+    }
+
+    nav img {
+        width: 105px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 252px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    section.first>div :first-child {
+        font-size: 32px;
+    }
+
+    section.first>div :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .faq h2 {
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 80vw;
+        padding: 0px;
+    }
+
+    .hero .hero-buttins input {
+        width: 200px;
+    }
+    .sec-div .div-img{
+        width: 170px;
+        height: 64.2px;
+    }
+    .div-img img{
+        width: 37.24px;
+    }
+}
+
+@media screen and (max-width:1225px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
