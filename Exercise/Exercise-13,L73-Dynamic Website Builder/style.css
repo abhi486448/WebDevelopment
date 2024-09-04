@@ -1,0 +1,73 @@
+body,html{
+    background-color: black;
+}
+.bn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#btn{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 98%;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(28, 27, 27);
+}
+.img{
+    height: 100%;
+    width: 178px;
+    position: relative;
+}
+img{
+    height: 100%;
+    border-radius: 5px;
+}
+.time{
+    width: 37px;
+    height: 17px;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    border-radius: 5px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.ti{
+    width: calc(100% - 178px);
+    height: 100px;
+    color: white;
+}
+.d1{
+    margin-left: 8px;
+    font-size: 20px;
+}
+.d2{
+    margin: 10px 0px 0px 3px;
+    font-size: 14px;
+}
+.s2{
+    margin-left: 5px;
+    opacity: 0.6;
+}
