@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <link rel="stylesheet" href="CSS/utlity.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="flex item-center">
+            <div class="hamburger">
+                <img  src="img/hamburger.svg" alt="">
+            </div>
+            <div class="nav-st">
+                <img class="invert" src="img/logo.svg" alt="Logo">
+            </div>
+            <div class="nav-mi flex">
+                <div class="nav-img flex justify-center item-center">
+                    <img src="img/home.svg" alt="Home">
+                </div>
+                <div class="search-bar-container flex item-center">
+                    <img src="img/search.svg" alt="">
+                    <input type="text" placeholder="What do you want to play?" class="search-bar border-none">
+                    <img src="img/broug.svg" alt="">
+                </div>
+            </div>
+            <div class="nav-la item-center">
+                <button class="bt-1 border-none">Sign up</button>
+                <button class="bt-2 border-none">Log in</button>
+            </div>
+        </nav>
+    </header>
+    <main class="flex">
+        <div class="flex item-center justify-center">
+            <div class="main-left radius-10 flex">
+                <div class="main">
+                    <div class="main-head flex item-center">
+                        <div class="main-head-playlist opacity flex item-center">
+                            <img src="img/playlist.svg" alt="">
+                            <h4>Your Library</h4>
+                        </div>
+                        <div class="main-head-close opacity flex justify-center item-center">
+                            <img class="invert" src="img/close.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="main-main">
+
+                        <section class="main-main-1 songList radius-10 flex main-main-2">
+                            <ul>
+
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <div class="footer flex">
+                    <ul class="flex opacity">
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Safty & Privacy Center</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cookies</a></li>
+                        <li><a href="">About Ads</a></li>
+                        <li><a href="">Accessibility</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Cookies</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="main-right radius-10">
+                <div class="sportifyPlayList">
+                    <h1>Sportify Playlists</h1>
+                    <div class="CardContainer item-center">
+
+
+                    </div>
+                </div>
+
+
+                <div class="bottom justify-center flex item-center">
+                    <div class="above item-center">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="song-controles-div flex justify-center item-center">
+                            <img id="previous" src="img/prevsong.svg" alt="">
+                            <img id="play" src="img/play.svg" alt="">
+                            <img id="next" src="img/nextsong.svg" alt="">
+                        </div>
+                        <div class="flex item-center">
+                            <div class="songtime"></div>
+                            <div class="volume flex justify-center item-center">
+                                <img src="img/volume.svg" alt="">
+                                <input type="range" name="volume" id="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="seekbar">
+                        <div class="bar"></div>
+                        <div class="circle"></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
