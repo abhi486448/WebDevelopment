@@ -1,0 +1,20 @@
+{
+  "name": "exercise-17-l100-design-this-layout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buld": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "vite": "^5.4.11"
+  }
+}
